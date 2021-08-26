@@ -36,6 +36,11 @@ html, body {
   font-size: 4em;
 }
 
+.color_link {
+  color: #00FFFF;
+  font-size: 1em;
+}
+
 .heading {
   color: white;
   font-size: 2.5em;
