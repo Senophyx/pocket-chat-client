@@ -1,3 +1,5 @@
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/8nzl.svg)](https://betteruptime.com/?utm_source=status_badge)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Fix Build Bug
