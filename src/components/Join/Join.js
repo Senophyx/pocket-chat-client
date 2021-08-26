@@ -12,7 +12,7 @@ export default function SignIn() {
       <div className="joinInnerContainer">
         <div class="header">
           <style>
-          @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
           </style>
           <h1 className="head_logo">WEBCHAT</h1>
           <p> </p>
