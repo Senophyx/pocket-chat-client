@@ -31,10 +31,9 @@ export default function SignIn() {
         <div className="doc">
           <h1 className="heading">Documentation</h1>
             <ul>
-            <li> Open Source :</li>
-            <li>• Client :  <a href="https://github.com/LyQuid12/webchat-client/" target="_blank">Here</a></li>
-            <li>• Server : Soon!</li>
-            <li> </li>
+            <p> Open Source :</p>
+            <li> Client :  <a href="https://github.com/LyQuid12/webchat-client/" target="_blank">Here</a></li>
+            <li> Server : Soon!</li>
           </ul>
         </div>
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
