@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'OCR A Std';
+    src: url('fonts/OCRAStd.eot');
+    src: url('fonts/OCRAStd.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OCRAStd.woff2') format('woff2'),
+         url('fonts/OCRAStd.woff') format('woff'),
+         url('fonts/OCRAStd.ttf')  format('truetype'),
+         url('fonts/OCRAStd.svg#OCR A Std') format('svg');
+}
