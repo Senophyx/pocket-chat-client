@@ -1,9 +1,8 @@
 @font-face {
     font-family: 'OCR A Std';
-    src: url('./OCRAStd.eot');
-    src: url('./OCRAStd.eot?#iefix') format('embedded-opentype'),
-         url('./OCRAStd.woff2') format('woff2'),
-         url('./OCRAStd.woff') format('woff'),
-         url('./OCRAStd.ttf')  format('truetype'),
-         url('./OCRAStd.svg#OCR A Std') format('svg');
+    src: url('https://github.com/LyQuid12/webchat-client/blob/dev/src/fonts/OCRAStd.eot');
+    src: url('https://github.com/LyQuid12/webchat-client/blob/dev/src/fonts/OCRAStd.otf') format('embedded-opentype'),
+         url('https://github.com/LyQuid12/webchat-client/blob/dev/src/fonts/OCRAStd.woff2') format('woff2'),
+         url('https://github.com/LyQuid12/webchat-client/blob/dev/src/fonts/OCRAStd.woff') format('woff'),
+         url('https://github.com/LyQuid12/webchat-client/blob/dev/src/fonts/OCRAStd.svg#OCR A Std') format('svg');
 }
