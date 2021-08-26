@@ -29,7 +29,8 @@ export default function SignIn() {
         </Link>
         <p> </p>
         <p> </p>
-        <a href="https://webchat.betteruptime.com/">Status</a>
+        <p> </p>
+        <a href="https://webchat.betteruptime.com/" style="color:#00FFFF;">Status</a>
       </div>
     </div>
   );
