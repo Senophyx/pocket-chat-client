@@ -11,8 +11,9 @@ export default function SignIn() {
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
         <div class="header">
-          <h1>WEBCHAT - FREE CHAT ROOM</h1>
-          <p>Join or Create Room</p>
+          <h1 className="head_logo">WEBCHAT</h1>
+          <h1 className="head_logo">FREE CHAT ROOM</h1>
+          <h1 className="heading">Join or Create Room</h1>
         </div>
         <div>
           <input placeholder="Nickname" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
