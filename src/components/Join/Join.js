@@ -6,6 +6,10 @@ import './Join.css';
 export default function SignIn() {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
   return (
     <div className="joinOuterContainer">
