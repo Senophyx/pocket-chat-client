@@ -29,10 +29,12 @@ export default function SignIn() {
         </Link>
         <p> </p>
         <h1 className="heading">Documentation</h1>
-        <p> Open Source :</p>
-        <p>• Client :  <a href="https://github.com/LyQuid12/webchat-client/" target="_blank">Here</a>.</p>
-        <p>• Server : Soon!</p>
-        <p> </p>
+        <ul>
+         <li> Open Source :</li>
+         <li>• Client :  <a href="https://github.com/LyQuid12/webchat-client/" target="_blank">Here</a></li>
+         <li>• Server : Soon!</li>
+         <li> </li>
+        </ul>
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
       </div>
     </div>
