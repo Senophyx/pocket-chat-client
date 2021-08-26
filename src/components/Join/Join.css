@@ -31,6 +31,11 @@ html, body {
   width: 100%;
 }
 
+.head_logo {
+  color: white;
+  font-size: 4em;
+}
+
 .heading {
   color: white;
   font-size: 2.5em;
