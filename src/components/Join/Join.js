@@ -30,7 +30,7 @@ export default function SignIn() {
         <p> </p>
         <p> </p>
         <p> </p>
-        <a href="https://webchat.betteruptime.com/" style="color:#00FFFF;">Status</a>
+        <div className="color_link"> <a href="https://webchat.betteruptime.com/" Status</a>
       </div>
     </div>
   );
