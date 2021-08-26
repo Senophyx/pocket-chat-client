@@ -12,7 +12,7 @@ export default function SignIn() {
       <div className="joinInnerContainer">
         <div class="header">
           <h1 className="head_logo">WEBCHAT</h1>
-          <h1 className="head_logo">FREE CHAT ROOM</h1>
+          <p> </p>
           <h1 className="heading">Join or Create Room</h1>
         </div>
         <div>
@@ -22,7 +22,7 @@ export default function SignIn() {
           <input placeholder="Room Name" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
         </div>
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button className={'button mt-20'} type="submit">Sign In</button>
+          <button className={'button mt-20'} type="submit">Let's GO!</button>
         </Link>
       </div>
     </div>
