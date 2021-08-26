@@ -6,15 +6,14 @@ import './Join.css';
 export default function SignIn() {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
-  
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
         <div class="header">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
           <h1 className="head_logo">WEBCHAT</h1>
           <p> </p>
           <h1 className="heading">Join or Create Room</h1>
