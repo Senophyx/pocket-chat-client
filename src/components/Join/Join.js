@@ -27,9 +27,11 @@ export default function SignIn() {
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
           <button className={'button mt-20'} type="submit">Let's GO!</button>
         </Link>
-        <p> </p>
-        <p> </p>
-        <p> </p>
+        <p> <br> </p>
+        <h1 className="heading">Documentation</h1>
+        <p> Open Source :</p>
+        <a href="https://github.com/LyQuid12/webchat-client/" target="_blank">• Client</a>
+        <p> • Server : Soon!</p>
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
       </div>
     </div>
