@@ -27,6 +27,7 @@ export default function SignIn() {
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
           <button className={'button mt-20'} type="submit">Let's GO!</button>
         </Link>
+        <a href="https://webchat.betteruptime.com/">Status</a>
       </div>
     </div>
   );
