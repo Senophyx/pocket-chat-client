@@ -9,12 +9,13 @@ export default function SignIn() {
 
 
   return (
-    <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">Documentation</a>
-    <a href="https://webchat.betteruptime.com/">Status</a>
-    <a href="#about">About</a>
     <div className="joinOuterContainer">
+      <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">Documentation</a>
+      <a href="https://webchat.betteruptime.com/">Status</a>
+      <a href="#about">About</a>
+      </div>
      <div className="joinInnerContainer">
       <div class="header">
        <style>
@@ -37,6 +38,5 @@ export default function SignIn() {
      <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
    </div>
  </div>
-</div>
 );
 }
