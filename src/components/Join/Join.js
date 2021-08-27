@@ -24,8 +24,8 @@ export default function SignIn() {
         <div>
           <input placeholder="Room Name" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
         </div>
-        <Link id='joinbtn' onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button className={'button mt-20'} type="submit">Let's GO!</button>
+        <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
+          <button id='joinbtn' className={'button mt-20'} type="submit">Let's GO!</button>
           <script>
               function joinbtn() {
                   alert("Joining To" + room +"...")
