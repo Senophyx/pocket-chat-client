@@ -13,10 +13,6 @@ html, body {
   box-sizing: border-box;
 }
 
-.joinall {
-overflow: scroll;
-}
-
 .joinOuterContainer {
   display: flex;
   justify-content: center;
