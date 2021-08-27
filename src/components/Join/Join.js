@@ -28,20 +28,8 @@ export default function SignIn() {
           <button className={'button mt-20'} type="submit">Let's GO!</button>
         </Link>
         <p> </p>
-          <h1 className="heading">Introducing</h1>
-           <div className="doc">
-            <p>WebChat is Realtime Chat Application</p>
-            <p>Created with React, Express, Node, Socket.IO And <span role="img" aria-label="emoji">❤️</span></p>
-           </div>
-          <p> </p>
-          <h1 className="heading">Documentation</h1>
-            <ul>
-            <p> Open Source :</p>
-            <li> Client :  <a href="https://github.com/LyQuid12/webchat-client/" target="_blank">Here</a></li>
-            <li> Server : Soon!</li>
-          </ul>
-        </div>
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
       </div>
+    </div>
   );
 }
