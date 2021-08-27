@@ -9,7 +9,7 @@ export default function SignIn() {
 
 
   return (
-    <div className="topnav">
+    <div class="topnav">
      <a class="active" href="#home">Home</a>
      <a href="#news">Documentation</a>
      <a href="https://webchat.betteruptime.com/">Status</a>
