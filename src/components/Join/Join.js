@@ -7,16 +7,19 @@ export default function SignIn() {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
 
+  return (
+    <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">Documentation</a>
+    <a href="https://webchat.betteruptime.com/">Status</a>
+    <a href="#about">About</a>
+   </div>
+  );
+}
 
   return (
     <div className="joinOuterContainer">
      <div className="joinInnerContainer">
-      <div class="topnav">
-       <a class="active" href="#home">Home</a>
-       <a href="#news">Documentation</a>
-       <a href="https://webchat.betteruptime.com/">Status</a>
-       <a href="#about">About</a>
-      </div>
       <div class="header">
        <style>
        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
@@ -39,4 +42,3 @@ export default function SignIn() {
    </div>
  </div>
 );
-}
