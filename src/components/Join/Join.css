@@ -27,6 +27,7 @@ html, body {
   text-decoration: none;
   font-size: 17px;
   width: fit-content;
+  place-items: top;
 }
 
 /* Change the color of links on hover */
@@ -46,7 +47,6 @@ html, body {
   justify-content: center;
   text-align: center;
   height: 150vh;
-  align-items: center;
   background-color: #1A1A1D;
 }
 
