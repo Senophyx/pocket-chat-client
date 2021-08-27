@@ -26,7 +26,7 @@ html, body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  width: fit-content;
+  width: max-content;
   place-items: top;
 }
 
@@ -47,6 +47,7 @@ html, body {
   justify-content: center;
   text-align: center;
   height: 150vh;
+  align-items: center;
   background-color: #1A1A1D;
 }
 
