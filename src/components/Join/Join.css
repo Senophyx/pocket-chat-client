@@ -14,8 +14,11 @@ html, body {
 }
 
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 /* Style the links inside the navigation bar */
@@ -26,8 +29,6 @@ html, body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  width: max-content;
-  place-items: top;
 }
 
 /* Change the color of links on hover */
