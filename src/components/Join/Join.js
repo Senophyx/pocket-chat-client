@@ -8,9 +8,10 @@ export default function SignIn() {
   const [room, setRoom] = useState('');
 
   return (
-    <div className="joinOuterContainer">
-      <div className="joinInnerContainer">
-        <div class="header">
+      <div className="joinall">
+       <div className="joinOuterContainer">
+        <div className="joinInnerContainer">
+         <div class="header">
           <style>
           @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
           </style>
@@ -44,6 +45,7 @@ export default function SignIn() {
         </div>
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
       </div>
+     </div>
     </div>
   );
 }
