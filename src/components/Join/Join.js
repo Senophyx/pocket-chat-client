@@ -25,12 +25,7 @@ export default function SignIn() {
           <input placeholder="Room Name" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
         </div>
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button id='joinbtn' className={'button mt-20'} type="submit">Let's GO!</button>
-          <script>
-              function joinbtn() {
-                  alert("Joining To" + room +"...")
-              }
-          </script>
+          <button className={'button mt-20'} type="submit">Let's GO!</button>
         </Link>
         <p> </p>
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
