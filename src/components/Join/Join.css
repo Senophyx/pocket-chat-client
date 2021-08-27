@@ -16,7 +16,7 @@ html, body {
 .topnav {
   background-color: #333;
   overflow: hidden;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 /* Style the links inside the navigation bar */
