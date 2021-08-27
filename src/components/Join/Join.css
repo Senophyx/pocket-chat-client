@@ -1,3 +1,4 @@
+  
 html, body {
   font-family: 'Balsamiq Sans', sans-serif;
   padding: 0;
@@ -48,6 +49,25 @@ html, body {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 150vh;
+  align-items: center;
+  background-color: #1A1A1D;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
 }
 
 .doc {
