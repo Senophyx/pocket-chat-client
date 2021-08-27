@@ -16,7 +16,14 @@ html, body {
 .topnav {
   background-color: black;
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -41,24 +48,6 @@ html, body {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
-}
-
-.joinOuterContainer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 150vh;
-  background-color: #1A1A1D;
-}
-
-.joinInnerContainer {
-  width: 20%;
-}
-
-.joinInput {
-  border-radius: 0;
-  padding: 15px 20px;
-  width: 100%;
 }
 
 .doc {
