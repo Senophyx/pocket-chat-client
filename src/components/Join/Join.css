@@ -26,6 +26,7 @@ html, body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  width: fit-content;
 }
 
 /* Change the color of links on hover */
