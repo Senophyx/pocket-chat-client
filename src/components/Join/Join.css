@@ -16,7 +16,7 @@ html, body {
 .topnav {
   background-color: black;
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
+  position: left; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
