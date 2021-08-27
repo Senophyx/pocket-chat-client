@@ -8,7 +8,6 @@ export default function SignIn() {
   const [room, setRoom] = useState('');
 
   return (
-      <div className="joinall">
        <div className="joinOuterContainer">
         <div className="joinInnerContainer">
          <div class="header">
@@ -46,6 +45,5 @@ export default function SignIn() {
         <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
       </div>
      </div>
-    </div>
   );
 }
