@@ -28,7 +28,9 @@ export default function SignIn() {
        <button className={'button mt-20'} type="submit">Let's GO!</button>
      </Link>
      <p> </p>
-     <a href="https://webchat.betteruptime.com/" target="_blank">Status</a>
+     <div className="other">
+     <a href="https://pocket-chat.betteruptime.com/" target="_blank">Status</a>
+     </div>
    </div>
  </div>
 );
