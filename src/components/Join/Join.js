@@ -9,12 +9,12 @@ export default function SignIn() {
 
   return (
     <div className="joinOuterContainer">
+      <h1 className="head_logo">Pocket Chat</h1>
      <div className="joinInnerContainer">
       <div class="header">
        <style>
        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
        </style>
-       <h1 className="head_logo">Pocket Chat</h1>
        <p> </p>
        <h1 className="heading">Join or Create Room</h1>
      </div>
