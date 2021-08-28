@@ -41,6 +41,7 @@ html, body {
   color: #00FFFF;
   font-size: 4em;
   width: max-content;
+  text-align: center;
 }
 
 .heading {
