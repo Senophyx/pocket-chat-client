@@ -21,6 +21,7 @@ html, body {
   align-items: center;
   background-color: #1A1A1D;
   width: 50%;
+  position: top;
 }
 
 .joinInnerContainer {
