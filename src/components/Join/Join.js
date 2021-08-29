@@ -28,8 +28,8 @@ export default function SignIn() {
        <button className={'button mt-20'} type="submit">Let's GO!</button>
      </Link>
      <p> </p>
-     <div className="other">
-     <a href="https://pocket-chat.betteruptime.com/" target="_blank">Status</a>
+     <div class="copyright_footer">
+       © 2021 Pocket Chat &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="https://pocket-chat.vercel.app">Documentation</a> | <a href="https://pocket-chat.betteruptime.com/">Status</a>
      </div>
    </div>
  </div>
