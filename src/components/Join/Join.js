@@ -29,11 +29,6 @@ export default function SignIn() {
      </Link>
      <p> </p>
      <div class="copyright_footer">
-     <style>
-     a {
-      color: #00FFFF;
-     }
-     </style>
        © 2021 Pocket Chat &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="https://pocket-chat.vercel.app">Documentation</a> | <a href="https://pocket-chat.betteruptime.com/">Status</a>
      </div>
    </div>
