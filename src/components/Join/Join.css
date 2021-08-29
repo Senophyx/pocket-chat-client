@@ -37,6 +37,17 @@ html, body {
   color: white;
 }
 
+.copyright_footer {
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    line-height: 3;
+    text-align: center;
+    left: 0;
+}
+
 .head_logo {
   color: #00FFFF;
   font-size: 4em;
