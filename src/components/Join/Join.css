@@ -75,6 +75,25 @@ html, body {
     width: 100%;
 }
 
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00FFFF;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
