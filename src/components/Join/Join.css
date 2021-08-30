@@ -38,7 +38,7 @@ html, body {
 }
 
 .copyright_footer {
-    position: fixed;
+    position: static;
     color: white;
     bottom: 0;
     width: 100%;
