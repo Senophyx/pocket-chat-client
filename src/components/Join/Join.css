@@ -76,12 +76,12 @@ html, body {
 }
 
 a:link {
-  color: white;
+  color: #71b7ff;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #71b7ff;
 }
 
 /* mouse over link */
