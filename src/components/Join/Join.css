@@ -50,8 +50,7 @@ html, body {
 
 .head_logo {
   color: #00FFFF;
-  position: fixed;
-  font-size: 4em;
+  font-size: 5em;
   width: max-content;
   text-align: center;
 }
