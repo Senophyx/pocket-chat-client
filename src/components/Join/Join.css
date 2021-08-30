@@ -50,9 +50,10 @@ html, body {
 
 .head_logo {
   color: #00FFFF;
-  font-size: 5em;
+  font-size: 2em;
   width: max-content;
   text-align: center;
+  align-items: center;
 }
 
 .heading {
