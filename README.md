@@ -1,6 +1,6 @@
 [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/8nzl.svg)](https://betteruptime.com/?utm_source=status_badge)
 
-### This repository is used for open source on our [website](https://www.pocket-chat-xyz)
+### This repository is used for open source on [Pocket Chat website](https://www.pocket-chat-xyz) with [Pocket Chat ToS](https://doc.pocket-chat.xyz/#tos)
 
 ## Fix Bug
 
