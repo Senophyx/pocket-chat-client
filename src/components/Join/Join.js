@@ -29,7 +29,7 @@ export default function SignIn() {
      </Link>
      <p> </p>
      <div class="copyright_footer">
-       © 2021 Pocket Chat &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a target="_blank" href="https://www.pocket-chat.xyz/">Homepage</a> | <a target="_blank" href="https://doc.pocket-chat.xyz/">Documentation</a> | <a target="_blank" href="https://status.pocket-chat.xyz/">Status</a>
+       © 2021 Pocket Chat &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="https://www.pocket-chat.xyz/">Homepage</a> | <a target="_blank" href="https://doc.pocket-chat.xyz/">Documentation</a> | <a target="_blank" href="https://status.pocket-chat.xyz/">Status</a>
      </div>
    </div>
  </div>
