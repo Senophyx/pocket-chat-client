@@ -2,7 +2,7 @@ html, body {
   font-family: 'Balsamiq Sans', sans-serif;
   padding: 0;
   margin: 0;
-  color: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
+  background-color: #1A1A1D;
 }
 
 #root {
