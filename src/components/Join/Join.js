@@ -15,9 +15,7 @@ export default function SignIn() {
        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
        </style>
        <a href="https://pocket-chat.xyz/" class="topleft">&laquo; Homepage</a>
-       <h1 className="head_logo">Pocket Chat</h1>
-       <p> </p>
-       <h1 className="heading">Join or Create Room</h1>
+       <h2 className="heading">Join or Create Room</h2>
      </div>
      <div>
        <input placeholder="Nickname" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
