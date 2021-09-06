@@ -1,6 +1,7 @@
 import React from 'react';
 
 import onlineIcon from '../../icons/onlineIcon.png';
+import {ENDPOINT} from '../Chat/Chat.js'
 
 import './TextContainer.css';
 
@@ -10,6 +11,9 @@ const TextContainer = ({ users }) => (
       users
         ? (
           <div>
+            <h1>Server :</h1>
+            <h2 className="server">{ENDPOINT}</h2>
+            <p>&nbsp;</p>
             <h1>Members :</h1>
             <div className="activeContainer">
               <h2>
