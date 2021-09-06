@@ -14,6 +14,7 @@ export default function SignIn() {
        <style>
        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
        </style>
+       <a href="https://pocket-chat.xyz/" class="topleft">&laquo; Homepage</a>
        <h1 className="head_logo">Pocket Chat</h1>
        <p> </p>
        <h1 className="heading">Join or Create Room</h1>
@@ -28,9 +29,6 @@ export default function SignIn() {
        <button className={'button mt-20'} type="submit">Let's GO!</button>
      </Link>
      <p> </p>
-     <div class="copyright_footer">
-       © 2021 Pocket Chat &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="https://www.pocket-chat.xyz/">Homepage</a> | <a target="_blank" href="https://doc.pocket-chat.xyz/">Documentation</a> | <a target="_blank" href="https://status.pocket-chat.xyz/">Status</a>
-     </div>
    </div>
  </div>
 );
