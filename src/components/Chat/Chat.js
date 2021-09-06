@@ -66,3 +66,4 @@ const Chat = ({ location }) => {
 }
 
 export default Chat;
+export {ENDPOINT};
