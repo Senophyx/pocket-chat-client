@@ -11,7 +11,7 @@ const TextContainer = ({ users }) => (
       users
         ? (
           <div>
-            <h1>Server:</h1>
+            <h1>Server :</h1>
             <h2 className="server">{ENDPOINT}</h2>
             <p>&nbsp;</p>
             <h1>Members :</h1>
