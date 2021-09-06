@@ -42,15 +42,11 @@ html, body {
   color: white;
 }
 
-.copyright_footer {
-    position: fixed;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    line-height: 3;
-    text-align: center;
-    left: 0;
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
 }
 
 .head_logo {
