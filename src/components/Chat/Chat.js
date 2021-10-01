@@ -9,7 +9,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'server.pocket-chat.xyz';
+const ENDPOINT = 'cocky-goldberg-66051c.netlify.app';
 
 let socket;
 
